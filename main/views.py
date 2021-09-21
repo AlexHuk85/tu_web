@@ -32,6 +32,7 @@ def index(request):
             )
             return HttpResponseRedirect('/?submitted=True')
 
+
     else:
         form = ContactForm()
         if 'submitted' in request.GET:
