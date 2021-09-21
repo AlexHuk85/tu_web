@@ -30,7 +30,7 @@ def index(request):
                 [email_to, 'taxhelpngrowth@gmail.com']
                 #connection=con
             )
-            return HttpResponseRedirect('/?submitted=True')
+            return HttpResponseRedirect('/?submitted=True#contact')
 
 
     else:
